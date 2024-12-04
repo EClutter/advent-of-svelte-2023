@@ -1,38 +1,22 @@
-# sv
+# 🎄 Svelte Advent Calendar 2023
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Hey! These are my solutions to the [Svelte Society Advent Calendar 2023](https://advent.sveltesociety.dev/2023) challenges, built with Svelte 5. 
 
-## Creating a project
+## What's This?
 
-If you're seeing this, you've probably already done this step. Congrats!
+Just working through the daily challenges to learn Svelte 5 and have some fun! I'm handling all the functionality while getting some help from Claude AI for making things look pretty with Tailwind CSS.
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Running It
 
 ```bash
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Stack
+- Svelte 5 
+- Tailwind CSS
 
-To create a production version of your app:
+That's it! Feel free to take a look around and let me know if you spot anything interesting! 👋
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Disclaimer: This readme was AI generated...
