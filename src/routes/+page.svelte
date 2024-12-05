@@ -1,6 +1,7 @@
 <script>
-	let COMPLETED_DAYS = 25;
-    const days = Array.from({ length: COMPLETED_DAYS }, (_, i) => i);
+    let TOTAL_DAYS = 25;
+	let COMPLETED_DAYS = 3;
+    const days = Array.from({ length: TOTAL_DAYS }, (_, i) => i);
 </script>
 
 <div class="py-8">
@@ -16,7 +17,7 @@
             >
                 <button
                     type="button"
-                    class="w-full py-4 px-6 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white font-medium shadow-lg hover:shadow-xl hover:from-indigo-600 hover:to-purple-700 focus:ring-4 focus:ring-indigo-300 focus:outline-none transition-all duration-200"
+                    class={`w-full py-4 px-6 rounded-xl bg-gradient-to-br ${day < COMPLETED_DAYS ? "from-yellow-500 to-red-600" : "from-indigo-500 to-purple-600"} text-white font-medium shadow-lg hover:shadow-xl hover:from-indigo-600 hover:to-purple-700 focus:ring-4 focus:ring-indigo-300 focus:outline-none transition-all duration-200`}
                 >
                     Day {day + 1}
                 </button>
