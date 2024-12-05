@@ -1,5 +1,5 @@
 <script>
-	let COMPLETED_DAYS = 2;
+	let COMPLETED_DAYS = 25;
     const days = Array.from({ length: COMPLETED_DAYS }, (_, i) => i);
 </script>
 
