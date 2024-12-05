@@ -18,7 +18,6 @@
 		getData();
 	})
 </script>
-<h1>Day One</h1>
 <section class="max-w-6xl mx-auto p-5">
     <div class="flex flex-col md:flex-row justify-around gap-8 mb-8">
         <div class="text-center p-4 rounded-lg flex-1 max-w-sm">

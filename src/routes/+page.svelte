@@ -1,6 +1,6 @@
 <script>
     let TOTAL_DAYS = 25;
-	let COMPLETED_DAYS = 3;
+	let COMPLETED_DAYS = 4;
     const days = Array.from({ length: TOTAL_DAYS }, (_, i) => i);
 </script>
 
